@@ -1,16 +1,16 @@
-// Подключение библиотек
+// РџРѕРґРєР»СЋС‡РµРЅРёРµ Р±РёР±Р»РёРѕС‚РµРє
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
 
-// Создание основной функции
+// РЎРѕР·РґР°РЅРёРµ РѕСЃРЅРѕРІРЅРѕР№ С„СѓРЅРєС†РёРё
 
 int main() {
 	setlocale(LC_CTYPE, "RUS");
 	float x;
 	float y;
 	double z;
-	puts("Введите переменные X,Y,Z");
+	puts("Р’РІРµРґРёС‚Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ X,Y,Z");
 	scanf("%f %f %lf", &x, &y, &z);
 	getchar();
 	double a1 = atan(x); //arctg(x)
